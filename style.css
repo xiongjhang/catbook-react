@@ -1,4 +1,3 @@
-
 :root {
   --color-primary: #3498db;
   --color-secondary: #2ecc71;
@@ -12,7 +11,11 @@
 }
 
 .navTitle {
-    font-size: 2rem;
-    color: var(--color-primary);
-    margin: 20px 0;
+  font-size: 2rem;
+  color: var(--color-background);
+  margin: 20px 0;
+}
+
+.navContainer {
+  background-color: var(--color-primary);
 }
